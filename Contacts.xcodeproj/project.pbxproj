@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E8D790CF1F1D0B5200276CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D790CE1F1D0B5200276CB9 /* AppDelegate.swift */; };
-		E8D790D11F1D0B5200276CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D790D01F1D0B5200276CB9 /* ViewController.swift */; };
 		E8D790D41F1D0B5200276CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D790D21F1D0B5200276CB9 /* Main.storyboard */; };
 		E8D790D61F1D0B5200276CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D790D51F1D0B5200276CB9 /* Assets.xcassets */; };
 		E8D790D91F1D0B5200276CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D790D71F1D0B5200276CB9 /* LaunchScreen.storyboard */; };
+		E8D790E11F1D0CC300276CB9 /* ContactsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D790E01F1D0CC300276CB9 /* ContactsTableTableViewController.swift */; };
+		E8D790E31F1D11F700276CB9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D790E21F1D11F700276CB9 /* Contact.swift */; };
+		E8D790E51F1D1C8E00276CB9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D790E41F1D1C8E00276CB9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8D790CB1F1D0B5200276CB9 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D790CE1F1D0B5200276CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8D790D01F1D0B5200276CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8D790D31F1D0B5200276CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8D790D51F1D0B5200276CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D790D81F1D0B5200276CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D790DA1F1D0B5200276CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D790E01F1D0CC300276CB9 /* ContactsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableTableViewController.swift; sourceTree = "<group>"; };
+		E8D790E21F1D11F700276CB9 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E8D790E41F1D1C8E00276CB9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E8D790CE1F1D0B5200276CB9 /* AppDelegate.swift */,
-				E8D790D01F1D0B5200276CB9 /* ViewController.swift */,
+				E8D790E41F1D1C8E00276CB9 /* DetailViewController.swift */,
 				E8D790D21F1D0B5200276CB9 /* Main.storyboard */,
+				E8D790E01F1D0CC300276CB9 /* ContactsTableTableViewController.swift */,
+				E8D790E21F1D11F700276CB9 /* Contact.swift */,
 				E8D790D51F1D0B5200276CB9 /* Assets.xcassets */,
 				E8D790D71F1D0B5200276CB9 /* LaunchScreen.storyboard */,
 				E8D790DA1F1D0B5200276CB9 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D790D11F1D0B5200276CB9 /* ViewController.swift in Sources */,
+				E8D790E31F1D11F700276CB9 /* Contact.swift in Sources */,
+				E8D790E11F1D0CC300276CB9 /* ContactsTableTableViewController.swift in Sources */,
+				E8D790E51F1D1C8E00276CB9 /* DetailViewController.swift in Sources */,
 				E8D790CF1F1D0B5200276CB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
