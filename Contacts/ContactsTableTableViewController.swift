@@ -101,6 +101,8 @@ class ContactsTableTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
         return false
     }
+    
+    
 
     /*
     // Override to support conditional rearranging of the table view.
